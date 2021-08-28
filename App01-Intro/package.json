@@ -1,0 +1,36 @@
+{
+  "name": "app01-intro",
+  "version": "1.0.0",
+  "description": "Mi primera app :D",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zLowyG/LearningElectron.git"
+  },
+  "keywords": [
+    "electron",
+    "primeraapp",
+    "miprimeraapp",
+    "miapp",
+    "curso",
+    "escritorio",
+    "multiplataforma",
+    "nodejs",
+    "js",
+    "html",
+    "css",
+    "chromium"
+  ],
+  "author": "zLowyG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zLowyG/LearningElectron/issues"
+  },
+  "homepage": "https://github.com/zLowyG/LearningElectron#readme",
+  "devDependencies": {
+    "electron": "^13.2.3"
+  }
+}
