@@ -15,3 +15,15 @@ function CreateWindow() {
 }
 
 app.whenReady().then(CreateWindow);
+
+app.on('window-all-closed', function(){
+    if (process.platform === "darwin") {
+        app.quit();
+    }
+});
+
+app.on('activate', function() {
+    if (BrowserWindow.getAllWindows().length === 0) {
+      CreateWindow();  
+    }
+});
